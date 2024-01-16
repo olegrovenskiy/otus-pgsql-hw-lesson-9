@@ -2,9 +2,9 @@
 
 1. Настройте выполнение контрольной точки раз в 30 секунд.
 
-    postgres=# alter system set checkpoint_timeout = '30s';
-    ALTER SYSTEM
-    postgres=#
+        postgres=# alter system set checkpoint_timeout = '30s';
+        ALTER SYSTEM
+        postgres=#
 
 С последующим рестартом кластера
 
